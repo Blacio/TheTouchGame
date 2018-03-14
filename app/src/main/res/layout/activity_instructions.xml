@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/instruct_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    tools:context="com.dummies.touchgame.InstructionsActivity"
+        android:background="@mipmap/back2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:src="@mipmap/gameplay"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:text="@string/instr11"
+            android:fontFamily="serif-monospace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="45"
+            android:gravity="center"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:textSize="@dimen/inst_text_size"
+            android:padding="5dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:src="@mipmap/inst1"
+            android:layout_margin="20dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:src="@mipmap/actions"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:text="@string/instr33"
+            android:fontFamily="serif-monospace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="80"
+            android:gravity="center"
+            android:textStyle="normal|bold"
+            android:textSize="@dimen/inst_text_size"
+            android:padding="5dp"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:src="@mipmap/col"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:text="@string/instr44"
+            android:fontFamily="serif-monospace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="45"
+            android:gravity="center"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:textSize="@dimen/inst_text_size"
+            android:padding="5dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:src="@mipmap/instcolor"
+            android:layout_margin="20dp"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="100"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:src="@mipmap/time"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:text="@string/instr55"
+                android:fontFamily="serif-monospace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="45"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="@dimen/inst_text_size"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="35"
+                android:src="@mipmap/instclock"
+                android:layout_margin="20dp"/>
+
+        </LinearLayout>
+
+
+    </ViewFlipper>
+

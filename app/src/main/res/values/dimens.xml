@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">12dp</dimen>
+    <dimen name="activity_vertical_margin">7dp</dimen>
+
+    <dimen name="menu_button_vert">57dp</dimen>
+    <dimen name="menu_button_horz">250dp</dimen>
+    <dimen name="size_button_menu">32sp</dimen>
+
+    <dimen name="task_size">22sp</dimen>
+
+    <dimen name="custom_section_size">30sp</dimen>
+    <dimen name="card_view_level">20sp</dimen>
+    <dimen name="card_view_status">16sp</dimen>
+
+    <dimen name="dialog_text_size">20sp</dimen>
+    <dimen name="dialog_button_size">20sp</dimen>
+    <dimen name="dialog_padding_button">10dp</dimen>
+    <dimen name="dialog_padding_line">30dp</dimen>
+    <dimen name="dialog_padding_text">13dp</dimen>
+
+    <dimen name="inst_text_size">20sp</dimen>
+    <dimen name="inst_text_size2">15sp</dimen>
+    <dimen name="inst_padding">5dp</dimen>
+
+</resources>

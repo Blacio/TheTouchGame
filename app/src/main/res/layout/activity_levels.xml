@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/back2">
+
+    <TextView
+        android:id="@+id/levelSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="LEVELS"
+        android:padding="15dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/back3"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textSize="@dimen/custom_section_size" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewList"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+</LinearLayout>

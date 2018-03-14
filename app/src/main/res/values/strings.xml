@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Touch Game</string>
+
+    <string name="task_1">Click when the button is RED</string>
+    <string name="task_2">Double-Click on GREEN. Press on BLUE and RELEASE on RED</string>
+    <string name="task_3">Click on RED. Press on GREEN and Release after 3 seconds</string>
+    <string name="task_4">Press after 1 seconds YELLOW appears. Release on GREEN</string>
+    <string name="task_5">Click after 2 second RED disappears. Double-Click on GREEN</string>
+    <string name="task_6">Click on RED. Press after 3 seconds BLUE appears. Release after 1 second</string>
+    <string name="task_7">Press when GREEN ends. Release after 2 seconds YELLOW ends and Click after 2 seconds</string>
+    <string name="task_8">Double-Click on RED. Press after 2 seconds. Release when BLUE ends. Click after 1 second</string>
+    <string name="task_9">Click on YELLOW(2) (second yellow). Double-Click on RED. Click on GREEN(2)</string>
+    <string name="task_10">Click on YELLOW. Double-Click when GREEN(2) ends. Click on RED(2)</string>
+    <string name="task_11">Click after 2 seconds RED(1) appears. Click after 3 seconds GREEN(1) ends. Double-Click on YELLOW(2)</string>
+    <string name="task_12">Double-Click on RED. Click on BLUE. Click on RED(2). Double-Click on second BLUE after RED(2)</string>
+    <string name="task_13">Press on BLUE(2). Release on RED. Double-Click on GREEN(3). Click on every YELLOW if it appears after BLUE.</string>
+    <string name="task_14">Click on RED(1). Press on RED(1). Release on GREEN(1). Click on GREEN(1). Release and Press again on BLUE</string>
+    <string name="task_15">Press GREEN(1). Release GREEN(2). Click on GREEN(2). If you have the possibility, Double-Click on each RED if YELLOW(2) has already appeared </string>
+    <string name="task_16">Double-Click on BLUE. Press on GREEN. Release YELLOW. Click after 2 seconds BLUE(2) ends</string>
+    <string name="task_17">Press when RED(1) ends. Release after 3 seconds YELLOW appears. Double-Click on the first RED after BLUE(2)</string>
+    <string name="task_18">Click on the first YELLOW after RED(2) if BLUE has appeared twice or Double-Click if not. Press on GREEN(1). Release after 2 seconds</string>
+    <string name="task_19">Double-Click on YELLOW(1). Press on RED(1). Release when YELLOW(2) ends. Click after 1 second if there were more than 2 seconds between the beginnings of YELLOW(1) and RED(1)</string>
+    <string name="task_20">Press after 2 seconds YELLOW(1) appears. Release after 2 seconds GREEN(1) ends. Click after 3 seconds RED(1) ends</string>
+
+    <string name="task_21">Button 1: Click on RED.Double-Click on YELLOW \n Button 2: Press on BLUE - Release on YELLOW</string>
+    <string name="task_22">This is 22 !!!</string>
+    <string name="task_23"></string>
+
+    <string name="good_dialog">WELL DONE !!! Next level ?!</string>
+    <string name="good_dialog_game">YOU ARE A MASTER !!! YOU HAVE COMPLETED THE TOUCH GAME !!! </string>
+    <string name="bad_dialog">Sorry you missed it. Try again?</string>
+
+    <string name="menu_dialog">If you start a new game all of your progress will be lost !!! Are you sure you want to do that ?</string>
+
+    <string name="instr11">This game consist in touching the button at the right moment, in the right way, based on certain criteria !!! You have to solve the specific task of every level. Turn the page for more details !!!</string>
+    <string name="instr33">The task that you will have to solve are based on different gestures that you will do on the buttons at a specific time:   PRESS RELEASE CLICK DOUBLE_CLICK</string>
+    <string name="instr44">One of the criteria of touching the button is its color.  The color that you can see are RED, GREEN, BLUE and YELLOW. Be careful ! Sometimes, some colors can appear several times per turn. It is possible that you will need to do different actions each time the color pops up !!!</string>
+    <string name="instr55">The time will also be very important in order to complete the levels. All colors will be visible a certain period of time and sometimes you will have to do special gestures after a specific period of time that is mentioned in the task !</string>
+
+</resources>

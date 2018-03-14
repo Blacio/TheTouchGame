@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/levelCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="7dp">
+
+        <FrameLayout
+            android:color="@color/green"
+            android:layout_width="4dp"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:color="@color/green"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/levelNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Level \n 100"
+                android:fontFamily="casual"
+                android:textSize="@dimen/card_view_level"
+                android:textStyle="normal|bold"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/levelCompleted"
+                android:text="DONE !!!!"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textStyle="normal|bold"
+                android:textSize="@dimen/card_view_status"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
